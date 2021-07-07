@@ -1,7 +1,6 @@
 class Solution:
     def tribonacci(self, n: int) -> int:
         trib = [0, 1, 1]
-
         if n in range(0, 3):
             return trib[n]
 
